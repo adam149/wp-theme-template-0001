@@ -1,0 +1,28 @@
+.settings
+*.aptana.*
+.project
+.svn
+*.svn
+.DS_Store
+.sass-cache
+node_modules
+.npm-debug.log
+*.lock
+
+### Composer template
+composer.phar
+/vendor/*
+!assets/js/vendor/*
+
+
+## PhpStorm
+## Directory-based project format
+.idea/
+.idea_modules/
+
+## File-based project format
+*.ipr
+*.iws
+
+## Additional for IntelliJ
+out/
